@@ -23,7 +23,7 @@
                         <td>{{ cliente.cpf }}</td>
                         <td>{{ cliente.dataCadastro }}</td>
                         <td>
-                            <button class="btn btn-sm btn-info me-1">
+                            <button class="btn btn-sm btn-info me-1" routerLink="/clientes-update/{{cliente.id}}" (click)="atualizarCliente(cliente.id)">
                                 <i class="fa-solid fa-pen"></i> Editar
                             </button>
                             <button class="btn btn-sm btn-danger ms-1" (click)="excluirCliente(cliente.id)">

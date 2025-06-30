@@ -27,14 +27,10 @@ export class ClienteListComponent implements OnInit {
         console.log(this.clientes)
       });
   }
-  // deletar(id: number){
-  //   this.service.deletar(id)
-  //     .subscribe(response => {
-  //       this.listarClientes();
-  //       this.deleted = true;
-  //     })
-  // }
-
+  atualizarCliente(id: number): void {
+    // Implementar lógica para atualizar cliente
+    console.log(`Atualizar cliente com ID: ${id}`);
+  }
   excluirCliente(id: number): void {
   Swal.fire({
     title: 'Tem certeza?',

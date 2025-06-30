@@ -6,10 +6,11 @@ import { ClientesFormComponent } from './clientes-form/clientes-form.component';
 import { FormsModule } from '@angular/forms';
 import { ClienteListComponent } from './cliente-list/cliente-list.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { ClientesUpdateComponent } from './clientes-update/clientes-update.component';
 
 
 @NgModule({
-  declarations: [ClientesFormComponent, ClienteListComponent],
+  declarations: [ClientesFormComponent, ClienteListComponent, ClientesUpdateComponent],
   imports: [
     CommonModule,
     ClientesRoutingModule,

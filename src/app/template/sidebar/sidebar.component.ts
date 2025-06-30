@@ -10,7 +10,12 @@ export class SidebarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
+
   }
+
+  fecharSidebar() {
+    document.body.classList.remove('sb-sidenav-toggled');
+  }
+
 
 }
